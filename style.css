@@ -26,12 +26,13 @@ nav {
 }
 
 main {
-  background: url("Imagens/FUNDO\ DO\ SITE.png") no-repeat center center;
+  background: url("Imagens/FOTO_DO_SITE.png") no-repeat center center;
   background-size: cover;
   height: 92vh;
 }
 
 .nav-list {
+  font-family: 'M PLUS 2', open-sans;
   list-style: none;
   display: flex;
 }
@@ -128,12 +129,13 @@ footer{
 
 }
 .footer-content{
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
+  font-family: 'M PLUS 2', open-sans;
 }
 .footer-content h3{
   font-size: 1.8rem;
@@ -171,6 +173,7 @@ footer{
 }
 
 .footer-bottom{
+  font-family: 'M PLUS 2', open-sans;
   background: #000;
   width: 100vw;
   padding: 20px 0;
@@ -192,7 +195,10 @@ h1 {
   margin-right: 140px;
 }
 .referencias {
-  background-color: rgb(193, 196, 196);
+  background-color: rgb(119, 119, 119);
+  color: aliceblue;
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
 }
 
 /**Fim geral**/
@@ -201,11 +207,23 @@ h1 {
 
 .titulos_home {
   margin-top: 80px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+.texto1 {
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
+}
+.texto2 {
+  text-align: center;
+  font-family: 'M PLUS 2', open-sans;
 }
 .subtitulos_home {
   margin-top: 20px;
   margin-left: 140px;
   margin-right: 140px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
 }
 .sem-block {
   display: flex;
@@ -223,15 +241,36 @@ h1 {
 #img2-home {
   display:inline-block;
   margin-top: 30px;
-  margin-right: 140px;
-  ;
+  margin-right: 120px;
+  margin-left: 90px;
 }
 #img-curiosidades{
+  justify-content: center;
   margin-top: 20px;
   margin-left: 140px;
   margin-right: 140px;
 }
 /**História**/
+.titulo_historia {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.texto_historia {
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
+}
+
+.texto_historia2 {
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
+}
+
+.referencias_historia {
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
+}
+
 .img1-historia {
   margin-top: 30px;
   margin-left: 140px;
@@ -242,6 +281,7 @@ h1 {
 }
 /**modalidades**/
 .modalidades {
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
 }
 
@@ -275,6 +315,7 @@ h1 {
   transform: rotateY(-180deg);
 }
 .front{
+  font-family: 'Bebas Neue', cursive;
   background: linear-gradient(90deg,#b3b3b3,#6e6e6e);
 }
 .back{
@@ -294,7 +335,13 @@ h1 {
   backface-visibility: hidden;
 }
 .sobrenos {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
   margin-top:20px ;
   margin-left:140px ;
 }
 
+.texto_sobrenos {
+  text-align: justify;
+  font-family: 'M PLUS 2', open-sans;
+}
